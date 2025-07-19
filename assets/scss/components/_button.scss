@@ -1,0 +1,53 @@
+.btn {
+  border-radius: 4px;
+  padding: 12px 24px;
+  color: $neutral-900;
+  line-height: 1.5;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+//產品尺寸
+.btn-product-size {
+  border: 1px solid $neutral-300;
+  width: 160px;
+  &:hover {
+    border-color: $neutral-900;
+  }
+  &.active {
+    border-color: $neutral-900;
+  }
+  &:disabled {
+    color: $neutral-500;
+    border-color: $neutral-300;
+    cursor: not-allowed;
+  }
+}
+
+.btn-primary {
+  background-color: $primary-300;
+  min-height: 48px;
+}
+
+.btn-dark {
+  background-color: $neutral-900;
+  color: $neutral-white;
+}
+
+.btn-light {
+  border: 1px solid $neutral-900;
+  color: $neutral-900;
+  &:hover {
+    background-color: $neutral-900;
+    color: $neutral-white;
+  }
+}
+
+.btn-tab {
+  width: 100%;
+  font-weight: 400;
+  border: 1px solid $neutral-300;
+  background-color: $neutral-white;
+}

@@ -1,0 +1,24 @@
+//偽元素
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  padding: 0 12px;
+  color: $neutral-300;
+  font-weight: 700;
+}
+.breadcrumb-item {
+  display: flex;
+}
+.breadcrumb-link {
+  color: $neutral-600;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .breadcrumb-item-md + .breadcrumb-item-md::before {
+    content: "/";
+    padding: 0 8px;
+    color: $neutral-300;
+    font-weight: 700;
+  }
+}

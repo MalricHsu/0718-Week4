@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week4-鞋子電商｜登入頁</title>
+    <%- include("./layout/bs5-link") %>
+  </head>
+  <body>
+    <!-- nav-->
+    <%- include("./layout/nav") %>
+    <div class="login-intro-md d-none d-md-block"></div>
+    <div class="container">
+      <div class="row py-16 py-md-0">
+        <div class="col-5 d-md-none">
+          <div class="login-intro"></div>
+        </div>
+        <div class="col-7 col-md-4">
+          <div class="login-bg login-bg-md px-20 py-30 py-md-8 px-md-0">
+            <h1 class="h3 text-center mb-8 mb-md-6">歡迎</h1>
+            <!-- 註冊/登入 tab -->
+            <div class="d-flex mb-8 mb-md-6">
+              <a class="login-tab registration h6 text-neutral-900" href="#"
+                >登入</a
+              >
+              <a
+                class="enroll-tab not-registration h6 text-neutral-600"
+                href="product-enroll.html"
+                >註冊</a
+              >
+            </div>
+            <div>
+              <button
+                type="button"
+                class="d-flex align-items-center btn btn-tab mb-2"
+              >
+                <img
+                  class="me-3"
+                  src="../assets/images/prodcut-logoin/facebook.svg"
+                  alt="Facebook"
+                />Facebook 登入
+              </button>
+              <button
+                type="button"
+                class="d-flex align-items-center btn btn-tab mb-2"
+              >
+                <img
+                  class="me-3"
+                  src="../assets/images/prodcut-logoin/apple.svg"
+                  alt="Apple"
+                />Apple 登入
+              </button>
+              <button
+                type="button"
+                class="d-flex align-items-center btn btn-tab"
+              >
+                <img
+                  class="me-3"
+                  src="../assets/images/prodcut-logoin/google.svg"
+                  alt="Google"
+                />Google 登入
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <%- include("./layout/footer") %>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+//登入和註冊頁面有logo
+.login-intro {
+  background-image: url("../images/prodcut-logoin/login.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  border-radius: 12px;
+}
+
+//登入和註冊頁面有logo bg
+.login-bg {
+  background-image: url("../images/prodcut-logoin/login-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-intro-md {
+    width: 100%;
+    height: 35vh;
+    background-image: url("../images/prodcut-logoin/login-sm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-bg-md {
+    background-image: none;
+  }
+}
+
+//登入/註冊tab
+.login-tab {
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0;
+}
+.enroll-tab {
+  width: 50%;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.registration {
+  border-bottom: 2px solid $neutral-900;
+}
+
+.not-registration {
+  border-bottom: 2px solid $neutral-300;
+}
