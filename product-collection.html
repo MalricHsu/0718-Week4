@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week4-鞋子電商｜收藏頁</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+/>
+
+    <script type="module" crossorigin src="/0718-Week4/assets/main-ZCarKZlg.js"></script>
+    <link rel="stylesheet" crossorigin href="/0718-Week4/assets/main-SiTdhZe4.css">
+  </head>
+  <body>
+    <!-- nav-->
+    <nav>
+  <div class="py-4 py-sm-3 container">
+    <div class="d-flex d-md-flex-wrap">
+      <div class="d-flex align-items-center w-100">
+        <div class="me-12">
+          <a href="index.html"
+            ><img src="/0718-Week4/assets/logo-RhEl2I3y.svg" alt="logo"
+          /></a>
+        </div>
+        <ul class="d-flex d-sm-none">
+          <li class="py-3 me-10">
+            <a
+              class="fw-500 text-decoration-none text-neutral-900"
+              href="product-list.html"
+              >商品列表</a
+            >
+          </li>
+          <li class="py-3">
+            <a
+              class="fw-500 text-decoration-none text-neutral-900"
+              href="brand-story.html"
+              >品牌故事</a
+            >
+          </li>
+        </ul>
+        <div class="ml-auto">
+          <a href="product-login.html"
+            ><i class="bi bi-person text-neutral-900"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <div class="container py-16">
+      <div class="row">
+        <div class="col-6 mx-auto col-md-4">
+          <!-- 標題 -->
+          <div class="d-flex justify-content-center mb-8">
+            <img
+              src="data:image/png;base64,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"
+              alt="收藏系列"
+              class="me-4 me-md-2"
+            />
+            <h1 class="h3">我的收藏</h1>
+          </div>
+          <!-- 營運時間 -->
+          <div
+            class="d-flex align-items-center bg-primary-100 border-radius-1 py-4 mb-8"
+          >
+            <i class="bi bi-truck"></i>
+            <p class="fw-500 text-primary-400 d-md-none">
+              門市營業時間：週一至週五 10:00 - 22:00
+            </p>
+            <div class="d-none d-md-block">
+              <p class="fw-500 text-primary-400">門市營業時間：</p>
+              <p class="fw-500 text-primary-400">週一至週五 10:00 - 22:00</p>
+            </div>
+          </div>
+          <!-- 卡片 -->
+          <div class="collection-card">
+            <a
+              href="product-detail.html"
+              class="d-flex pb-8 border-bottom mb-8 text-decoration-none"
+            >
+              <img
+                class="w-120 h-120 me-4"
+                src="/0718-Week4/assets/product-1-ByIiOSCa.png"
+                alt="商品1"
+              />
+              <div class="collection-info">
+                <h2 class="h5 mb-2">PLATFORM 404</h2>
+                <p class="text-neutral-600 mb-2">
+                  尺寸<span class="ms-3 text-primary">38</span>
+                </p>
+                <p class="text-neutral-600 mb-2">
+                  顏色<span class="ms-3 text-primary">Navy</span>
+                </p>
+                <p class="h6 text-align-right text-align-left-md">NT$2,600</p>
+              </div>
+            </a>
+          </div>
+          <div class="collection-card">
+            <a
+              href="#"
+              class="d-flex pb-8 border-bottom mb-8 text-decoration-none"
+            >
+              <img
+                class="w-120 h-120 me-4"
+                src="/0718-Week4/assets/product-5-CqyUCYzf.png"
+                alt="商品5"
+              />
+              <div class="collection-info">
+                <h2 class="h5 mb-2">BOOMLOK</h2>
+                <p class="text-neutral-600 mb-2">
+                  尺寸<span class="ms-3 text-primary">38</span>
+                </p>
+                <p class="text-neutral-600 mb-2">
+                  顏色<span class="ms-3 text-primary">White</span>
+                </p>
+                <p class="h6 text-align-right text-align-left-md">NT$3,200</p>
+              </div>
+            </a>
+          </div>
+          <div class="collection-card">
+            <a
+              href="#"
+              class="d-flex pb-8 border-bottom mb-8 text-decoration-none"
+            >
+              <img
+                class="w-120 h-120 me-4"
+                src="/0718-Week4/assets/product-4-AxvEbKOW.png"
+                alt="商品4"
+              />
+              <div class="collection-info">
+                <h2 class="h5 mb-2">MELTY KISS</h2>
+                <p class="text-neutral-600 mb-2">
+                  尺寸<span class="ms-3 text-primary">38</span>
+                </p>
+                <p class="text-neutral-600 mb-2">
+                  顏色<span class="ms-3 text-primary">Violet</span>
+                </p>
+                <p class="h6 text-align-right text-align-left-md">NT$4,000</p>
+              </div>
+            </a>
+          </div>
+          <!-- 點我預約 -->
+          <button type="button" class="d-block mx-auto btn btn-dark">
+            立即預約門市試穿
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-footer py-16 py-sm-8 px-sm-3">
+  <div class="container">
+    <nav
+      class="d-flex justify-content-space-between align-items-center mb-6 d-sm-block mb-sm-6"
+    >
+      <a href="index.html"
+        ><img class="mb-sm-2" src="/0718-Week4/assets/logo-RhEl2I3y.svg" alt="logo"
+      /></a>
+      <ul class="d-flex align-items-center d-sm-block px-sm-3">
+        <li class="py-sm-3 mb-sm-1">
+          <a
+            class="fw-500 me-10 text-neutral-900 text-decoration-none"
+            href="product-list.html"
+            >商品列表</a
+          >
+        </li>
+        <li class="py-sm-3">
+          <a
+            class="fw-500 py-3 text-neutral-900 text-decoration-none"
+            href="brand-story.html"
+            >品牌故事</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="pt-8 border-top">
+      <p class="sm text-center text-neutral-600 mb-1">
+        Copyright ©2025 URBNSTYLE
+      </p>
+      <p class="sm text-center text-neutral-600">All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
