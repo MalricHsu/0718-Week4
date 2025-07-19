@@ -1,4 +1,6 @@
+//引入文字字型
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+
 //基本文字設定
 body {
   font-family: "Noto Sans TC", serif;
@@ -85,7 +87,6 @@ body {
 .text-center {
   text-align: center;
 }
-
 .text-align-right {
   text-align: right;
 }
@@ -123,6 +124,12 @@ body {
   }
   .sm-md {
     font-size: 0.875rem;
+  }
+  .text-align-md-start {
+    text-align: start;
+  }
+  .text-align-md-center {
+    text-align: center;
   }
   .text-align-left-md {
     text-align: left;

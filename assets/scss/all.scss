@@ -1,7 +1,9 @@
 @import "./base/variable";
+@import "./base/mixin";
 @import "./base/reset";
 @import "./base/typography";
 @import "./layout/container";
+@import "./layout/nav";
 @import "./pages/index";
 @import "./pages/brand-story";
 @import "./pages/produst-list";

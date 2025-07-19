@@ -1,3 +1,4 @@
+//btn基礎格式
 .btn {
   border-radius: 4px;
   padding: 12px 24px;
@@ -9,7 +10,7 @@
   background-color: transparent;
 }
 
-//產品尺寸
+//產品資訊-產品尺寸
 .btn-product-size {
   border: 1px solid $neutral-300;
   width: 160px;
@@ -26,16 +27,15 @@
   }
 }
 
+//btn 顏色
 .btn-primary {
   background-color: $primary-300;
   min-height: 48px;
 }
-
 .btn-dark {
   background-color: $neutral-900;
   color: $neutral-white;
 }
-
 .btn-light {
   border: 1px solid $neutral-900;
   color: $neutral-900;
@@ -45,6 +45,7 @@
   }
 }
 
+//登入/註冊頁-fb、apple、google登入
 .btn-tab {
   width: 100%;
   font-weight: 400;

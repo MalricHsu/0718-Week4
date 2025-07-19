@@ -7,7 +7,6 @@
   height: 100%;
   border-radius: 12px;
 }
-
 //登入和註冊頁面有logo bg
 .login-bg {
   background-image: url("../images/prodcut-logoin/login-bg.png");
@@ -30,7 +29,6 @@
     background-image: none;
   }
 }
-
 //登入/註冊tab
 .login-tab {
   width: 50%;
@@ -44,11 +42,10 @@
   text-align: center;
   padding: 12px 0;
 }
-
+//顯示狀態
 .registration {
   border-bottom: 2px solid $neutral-900;
 }
-
 .not-registration {
   border-bottom: 2px solid $neutral-300;
 }

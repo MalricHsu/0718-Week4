@@ -12,22 +12,20 @@ $neutral-600: #6c757d;
 $neutral-900: #212529;
 $danger-300: #d74f4f;
 
-// .primary-color
-.text-primary-400 {
-  color: $primary-400;
-}
-// .text-primary
-.text-neutral-900 {
-  color: $neutral-900;
-}
 .text-primary-300 {
   color: $primary-300;
+}
+.text-primary-400 {
+  color: $primary-400;
 }
 .text-neutral-500 {
   color: $neutral-500;
 }
 .text-neutral-600 {
   color: $neutral-600;
+}
+.text-neutral-900 {
+  color: $neutral-900;
 }
 .text-danger-300 {
   color: $danger-300;
@@ -37,15 +35,12 @@ $danger-300: #d74f4f;
 }
 
 //背景設定
-
-// .bg-hightlight
 .bg-primary-100 {
   background-color: $primary-100;
 }
-//bg-footer
-.bg-neutural-100 {
-  background-color: $neutral-100;
-}
 .bg-primary-200 {
   background-color: $primary-200;
+}
+.bg-neutural-100 {
+  background-color: $neutral-100;
 }
