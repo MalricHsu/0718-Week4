@@ -166,7 +166,7 @@
   .inspiration-col-4,
   .inspiration-col-6,
   .inspiration-col-12 {
-    width: unset;
+    width: unset; //取消原始的方式
     padding: 0 8px;
   }
 }
