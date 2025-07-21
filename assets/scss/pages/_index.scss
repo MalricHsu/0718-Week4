@@ -25,12 +25,14 @@
 }
 //手機輪播排版
 @media screen and (max-width: 768px) {
-  .scroll-content {
-    display: inline-flex;
-    column-gap: 16px;
+  .hotGood-md-row {
+    margin-left: -8px;
+    margin-right: -8px;
   }
-  .scroll-item {
-    width: 300px;
+  .hotGood-md-col {
+    min-width: 316px; //(含間距)
+    padding-left: 8px;
+    padding-right: 8px;
   }
 }
 
